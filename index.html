@@ -19,29 +19,30 @@
 
 <body id="index">
   <header>
-    <div>
-      <img src="img/portfolio-logo.svg" alt="Jukie Chan">
-      <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-
+    <div class="container">
+      <img class="logo" src="img/portfolio-logo.svg" alt="Jukie Chan">
+      <div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main>
 
-    <div>
+    <div id="work-heading" class="container">
       <h2>WORK</h2>
     </div>
 
-    <div id="work">
+    <div id="work" class="container">
       <!-- work section -->
       <!-- open row that holds (2) columns for project -->
-      <div id="project1">
+      <div id="project1" class="row">
         <!-- open first column (used for image) -->
         <picture>
           <source srcset="img/my-jewellery/mj1.jpg" media="(max-width:767px)">
@@ -60,9 +61,9 @@
       </div><!-- end second column -->
     </div><!-- end row that holds (2) columns for project -->
 
-    <div>
+    <div id="work" class="container">
       <!-- open row that holds (2) columns for project -->
-      <div id="project2">
+      <div id="project2" class="row">
         <!-- open first column (used for image) -->
         <picture>
           <source srcset="img/home-cooking/hc1.jpg" media="(max-width:767px)">
@@ -82,16 +83,16 @@
       </div><!-- end second column -->
     </div><!-- end row that holds (2) columns for project -->
 
-    <div>
+    <div id="work" class="container">
       <!-- open row that holds (2) columns for project -->
-      <div id="project3">
+      <div id="project3" class="row">
         <!-- open first column (used for image) -->
         <picture>
           <source srcset="img/check/check1.jpg" media="(max-width:767px)">
           <img src="img/check/check2.jpg" alt="MJ photo">
         </picture>
       </div><!-- end first column -->
-      <div>
+      <div class="container">
         <!-- open second column (used for text) -->
         <h3>Check - Task Management App</h3><!-- heading for the project -->
         <p>
@@ -106,20 +107,19 @@
 
   </main>
 
-  <footer id="contact">
+  <footer id="contact" class="container">
     <div>
       <h2>CONTACT</h2>
     </div>
     <p>
       Do you like my work and want to discuss opportunities? Please get in touch.
     </p>
-    <div>
+    <div id="call" class="container">
       <a href="tel:+16478898166" class="button contact">Call</a>
     </div>
-    <div>
+    <div id="email" class="container">
       <a href="mailto:jukiechan@gmail.com" class="button contact">Email me</a>
     </div>
-
     <div>
       <!--Social Media Layout and Placeholders-->
       <a href="https://www.linkedin.com/in/jukie-chan-b5b174129/" target="_blank">
@@ -155,7 +155,7 @@
         </svg>
       </a>
     </div>
-    <p>Copyright Jukie Chan 2020</p>
+    <p id="copyright">Copyright Jukie Chan 2020</p>
   </footer>
 </body>
 
