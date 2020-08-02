@@ -188,10 +188,39 @@ nav>ul>li>a {
   padding: 20px;
 }
 
+#work1 {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+#work2 {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+#work3 {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
 main {
   padding-top: 133px; /*for fixed header postition*/
 }
 
 #copyright{
   font-size: 12px;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
