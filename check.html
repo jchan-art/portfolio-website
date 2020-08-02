@@ -20,7 +20,7 @@
 <body id="task-app">
   <header>
     <div>
-      <img src="img/portfolio-logo.svg" alt="Jukie Chan">
+      <img class="logo" src="img/portfolio-logo.svg" alt="Jukie Chan">
       <nav>
         <ul>
           <li><a href="index.html">Work</a></li>
@@ -37,9 +37,10 @@
       <!-- open orange 1 -->
       <div>
         <!-- open yellow 1 -->
-        <h3>Check - Task Management App</h3>
-        <p>A task management app designed for users to efficiently plan, manage, and track daily tasks and activities.</p>
-
+        <div class="container">
+          <h3>Check - Task Management App</h3>
+          <p>A task management app designed for users to efficiently plan, manage, and track daily tasks and activities.</p>
+        </div>
         <div>
           <!-- open green 1 -->
           <picture>
@@ -52,18 +53,18 @@
 
   </main>
 
-  <footer id="contact">
+  <footer id="contact" class="container">
     <div>
       <h2>Contact</h2>
     </div>
     <p>
       Do you like my work and want to discuss opportunities? Please get in touch.
     </p>
-    <div>
-      <a href="tel:+16478898166">Call</a>
+    <div id="call" class="container">
+      <a href="tel:+16478898166" class="button contact">Call</a>
     </div>
-    <div>
-      <a href="mailto:jukiechan@gmail.com">Email me</a>
+    <div id="email" class="container">
+      <a href="mailto:jukiechan@gmail.com" class="button contact">Email me</a>
     </div>
 
     <div>
@@ -101,7 +102,7 @@
         </svg>
       </a>
     </div>
-    <p>Copyright Jukie Chan 2020</p>
+    <p id="copyright">Copyright Jukie Chan 2020</p>
   </footer>
 </body>
 
