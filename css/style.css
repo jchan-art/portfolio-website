@@ -382,6 +382,10 @@ Large devices (1024px or larger)
     min-width: 250px;
   }
 
+  picture{
+    max-width: 1200px;
+  }
+
   body {
     background-color: white;
     font-family: 'Monserrat', sans-serif;
