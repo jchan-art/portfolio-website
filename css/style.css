@@ -103,6 +103,7 @@ a:focus {
   color: #707070;
   text-transform: uppercase;
   border: 2px solid #B5D6CE;
+  margin: 5px;
 }
 
 .button.contact:hover {
@@ -148,7 +149,7 @@ header {
   right: 0;
   top: 2px;
   font-size: 20px;
-  padding-right: 0;
+  margin-bottom: 5px;
 }
 
 nav>ul {
@@ -159,6 +160,7 @@ nav>ul {
 
 nav>ul>li>a {
   padding: 5px;
+  margin: 6px;
   text-transform: uppercase;
 }
 
@@ -203,12 +205,14 @@ ul {
 }
 
 #skills-tools h2 {
-  text-align: center;
+  text-align: left;
+  margin-top: 60px;
 }
 
 #contact h2 {
   text-align: center;
   /* aligns contact heading to center */
+  margin-top: 60px;
 }
 
 #contact {
@@ -247,6 +251,14 @@ ul {
   background-color: #FFFFFF;
   padding: 20px;
 }
+
+#profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
 
 /*animation*/
 @keyframes color-change {
@@ -313,6 +325,7 @@ main {
 
 #copyright {
   font-size: 12px;
+  margin-top: 30px;
 }
 
 /* ==============================
@@ -340,7 +353,7 @@ Medium devices (640px and larger)
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    margin-top: 0px;
   }
 
   .logo {
